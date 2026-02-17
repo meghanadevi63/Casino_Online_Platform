@@ -12,3 +12,4 @@ __pycache__/
 venv/
 dist/
 .DS_Store
+.~lock.guide.doc#
