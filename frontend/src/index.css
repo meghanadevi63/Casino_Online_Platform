@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.input {
+  @apply w-full p-2 mb-3 rounded bg-gray-700 text-white outline-none focus:ring-2 focus:ring-yellow-400;
+}
+
+.input {
+  @apply w-full p-2 mb-3 rounded bg-gray-700 text-white outline-none focus:ring-2 focus:ring-yellow-400;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}

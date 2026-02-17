@@ -1,0 +1,14 @@
+database
+.env
+.venv
+.~lock.guide.doc#
+frontend.docx
+
+
+node_modules/
+__pycache__/
+*.pyc
+.env
+venv/
+dist/
+.DS_Store
